@@ -4,6 +4,19 @@ This guide provides essential Git commands for initializing a repository, tracki
 
 ---
 
+## 📑 Index
+
+- [🔍 Checking Repository Status](#checking-repository-status)
+- [🛠️ Initializing a Git Repository](#initializing-a-git-repository)
+- [➕ Adding Files to Staging Area](#adding-files-to-staging-area)
+- [✅ Committing Changes](#committing-changes)
+- [🔗 Working with Remote Repositories](#working-with-remote-repositories)
+  - [Check Existing Remotes](#check-existing-remotes)
+  - [Add Remote Repository](#add-remote-repository)
+- [🚀 Pushing Changes to Remote Repository](#pushing-changes-to-remote-repository)
+- [📝 Recommendations & Tips](#recommendations--tips)
+
+---
 ## 🔍 Checking Repository Status
 
 ```bash
@@ -12,7 +25,6 @@ git status
 - Shows the current state of the working directory and staging area.
 - **Note:** If you're not inside a Git repository, this will return an error.
 
----
 
 ## 🛠️ Initializing a Git Repository
 
@@ -21,7 +33,7 @@ git init
 ```
 - Initializes a new Git repository in the current directory.
 
----
+
 
 ## ➕ Adding Files to Staging Area
 
@@ -35,7 +47,7 @@ git add .
 ```
 - Adds **all** changes (new, modified, deleted files) to the staging area.
 
----
+
 
 ## ✅ Committing Changes
 
@@ -44,7 +56,7 @@ git commit -m "Your commit message"
 ```
 - Records staged changes with a descriptive message.
 
----
+
 
 ## 🔗 Working with Remote Repositories
 
@@ -63,7 +75,7 @@ git remote add origin <repository-URL>
 ```
 - Sets a remote repository (usually from GitHub) named `origin`.
 
----
+
 
 ## 🚀 Pushing Changes to Remote Repository
 
@@ -73,7 +85,7 @@ git push -u origin <branch-name>
 - Pushes commits to the remote repository on the specified branch (e.g., `main` or `master`).
 - The `-u` flag sets the upstream branch, so future pushes can use `git push` without additional arguments.
 
----
+
 
 ## 📝 Recommendations & Tips
 
@@ -83,5 +95,5 @@ git push -u origin <branch-name>
 - Use `git log` to view commit history.
 - Consider creating a new branch with `git checkout -b <branch-name>` for new features or fixes.
 
----
+
 
