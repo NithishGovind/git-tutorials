@@ -3,3 +3,4 @@ git branch <> - create a new branch \
 git branch -m <> - modify new name, head should same while modifying
 git branch -d <> - head should be different 
 git status - to check which branch it exist on
+git switch - helps to switch btw branches
