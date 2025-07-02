@@ -2,7 +2,7 @@
 
 This guide provides essential Git commands for initializing a repository, tracking changes, working with branches, and pushing to GitHub.
 
----
+
 
 ## 📑 Index
 
@@ -24,7 +24,7 @@ This guide provides essential Git commands for initializing a repository, tracki
   - [List All Branches](#list-all-branches)
 - [📝 Recommendations & Tips](#recommendations--tips)
 
----
+
 
 ## 🔍 Checking Repository Status
 
@@ -34,7 +34,7 @@ git status
 - Shows the current state of the working directory and staging area.
 - **Note:** If you're not inside a Git repository, this will return an error.
 
----
+
 
 ## 🛠️ Initializing a Git Repository
 
@@ -43,7 +43,7 @@ git init
 ```
 - Initializes a new Git repository in the current directory.
 
----
+
 
 ## ➕ Adding Files to Staging Area
 
@@ -57,7 +57,7 @@ git add .
 ```
 - Adds **all** changes (new, modified, deleted files) to the staging area.
 
----
+
 
 ## ✅ Committing Changes
 
@@ -66,7 +66,7 @@ git commit -m "Your commit message"
 ```
 - Records staged changes with a descriptive message.
 
----
+
 
 ## 🔗 Working with Remote Repositories
 
@@ -85,7 +85,7 @@ git remote add origin <repository-URL>
 ```
 - Sets a remote repository (usually from GitHub) named `origin`.
 
----
+
 
 ## 🚀 Pushing Changes to Remote Repository
 
@@ -95,7 +95,7 @@ git push -u origin <branch-name>
 - Pushes commits to the remote repository on the specified branch (e.g., `main` or `master`).
 - The `-u` flag sets the upstream branch, so future pushes can use `git push` without additional arguments.
 
----
+
 
 ## 📥 Fetching Changes from Remote Repository
 
@@ -106,7 +106,7 @@ git fetch
 - **Note:** This updates your local repository’s history but does **not** modify your working directory.
 - You can view the changes and commit history, but you won’t see the actual files until you check them out.
 
----
+
 
 ### 🔄 Checking Out Fetched Data
 
@@ -116,7 +116,7 @@ git checkout origin/main
 - Lets you view the contents of a remote branch (e.g., `origin/main`) without merging it into your local branch.
 - Use this to inspect files or branches fetched from the remote repository.
 
----
+
 
 ### ⬇️ Pulling from Remote Repository
 
@@ -126,13 +126,13 @@ git pull
 - Fetches and **automatically merges** changes from the remote repository into your current working branch.
 - Combines `git fetch` + `git merge`.
 
----
+
 
 ### 🖼️ Git Command Flow Illustration
 
 ![Git Command Flow](image.png?raw=true "Git Workflow")
 
----
+
 
 ## 🌿 Working with Branches
 
@@ -144,7 +144,7 @@ git branch -m main
 - Renames the current branch to `main`.
 - Useful if your repo defaults to `master` and you want to follow modern naming conventions.
 
----
+
 
 ### 🌱 Create a New Branch
 
@@ -159,7 +159,7 @@ Example:
 git branch feature-login
 ```
 
----
+
 
 ### 🔁 Switch to a Branch
 
@@ -174,7 +174,7 @@ Or create and switch in one step:
 git checkout -b <branch-name>
 ```
 
----
+
 
 ### 📋 List All Branches
 
@@ -184,7 +184,7 @@ git branch
 - Lists all local branches.
 - The currently checked-out branch is marked with an asterisk (`*`).
 
----
+
 
 ## 📝 Recommendations & Tips
 
@@ -200,4 +200,4 @@ git checkout -b <branch-name>
 
 - Great for working on new features or fixes without affecting the `main` branch.
 
----
+
