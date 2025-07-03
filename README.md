@@ -19,4 +19,13 @@ This repository contains a set of Git tutorials focused on essential version con
   Dive deeper into creating and managing branches, switching between branches, and resolving merge conflicts.
 
 ## Project Structure
-
+```
+/root
+│
+├── /images/ # Directory containing images related to the project
+├── git_basics.md # Overview of basic Git commands
+├── undoing_changes.md # Detailed explanation of undoing Git changes
+├── working with others.md # Collaboration techniques in Git
+├── README.md # This file
+└── git_branching_and_merging.md # Guide to branching and merging in Git
+```
