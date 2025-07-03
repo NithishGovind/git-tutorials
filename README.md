@@ -15,8 +15,6 @@ This repository contains a set of Git tutorials focused on essential version con
 - **[Working with Others](working%20with%20others.md)**  
   Understand collaborative workflows in Git, including branching, merging, and handling pull requests in a team setting.
 
-- **[Git Branching and Merging](git_branching_and_merging.md)**  
-  Dive deeper into creating and managing branches, switching between branches, and resolving merge conflicts.
 
 ## Project Structure
 ```
