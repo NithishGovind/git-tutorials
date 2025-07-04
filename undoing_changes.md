@@ -39,5 +39,5 @@ This repository contains a set of notes for a lecture on common Git commands and
   For further reading and reference, we link to various MDN docs throughout the notes, especially for web-related topics like CSS and JavaScript features.  
   [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
-## Project Structure
+
 

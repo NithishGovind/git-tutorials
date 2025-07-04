@@ -1,0 +1,3 @@
+git stash - So when you are working on a branch, just remember something and want to switch over to a different branch just for reference, but files you were working on appears when u switch branches. here chances of conflicts that arises are higher. so to preserve the code you are writing, u can stash it away. and then switch the branch 
+
+git stash pop - after stashing and working with other branches. after completing ut work u can switcho ver the original branch and then u can pop the stash away. and then the changes will br reflected without any commits
